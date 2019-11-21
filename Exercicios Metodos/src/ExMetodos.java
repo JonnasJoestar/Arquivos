@@ -3,6 +3,9 @@ public class ExMetodos {
 	//Ex1
 	public static int fat(int n) {
 		int f = n;
+		if(n == 0){
+			f = 1;
+		}
 		for(int i = 2; i < n; i++) {
 			f *= i;
 		}
